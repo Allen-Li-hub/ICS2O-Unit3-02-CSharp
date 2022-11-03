@@ -10,10 +10,10 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int lengthOfPyramid;
-        int widthOfPyramid;
-        int heightOfPyramid;
-        int volumeOfPyramid;
+        decimal lengthOfPyramid;
+        decimal widthOfPyramid;
+        decimal heightOfPyramid;
+        decimal volumeOfPyramid;
 
         Console.WriteLine("This program calculates the area of a triangle.");
         Console.WriteLine("");
@@ -28,7 +28,7 @@ class Program
         volumeOfPyramid = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3;
 
         Console.WriteLine("");
-        Console.WriteLine("The volume is: " + volumeOfPyramid + " cm³. ");
+        Console.WriteLine("The volume is: " + volumeOfPyramid.ToString(2) + " cm³. ");
 
         Console.WriteLine("\nDone.");
     }
