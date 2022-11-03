@@ -28,7 +28,7 @@ class Program
         volumeOfPyramid = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3;
 
         Console.WriteLine("");
-        Console.WriteLine("The volume is: " + volumeOfPyramid.ToString(2) + " cm³. ");
+        Console.WriteLine("The volume is: " + volumeOfPyramid.ToString("0.00") + " cm³. ");
 
         Console.WriteLine("\nDone.");
     }
